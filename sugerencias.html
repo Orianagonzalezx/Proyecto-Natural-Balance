@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Balance-Sugerencias</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header"> <!-- Encabezado -->
+    <div>
+      <a href="./index.html">
+       <img src="./multimedia/1240789.png" alt="Logo" width="130">
+     </a>
+    </div>
+
+     <nav class="menu-nav">            
+             <ul class="ul-nav">
+             <li><a href="./index.html">Inicio</a></li>
+             <li><a href="./nosotros.html">Nosotros</a></li>
+             <li><a href="./tienda.html">Tienda</a></li>
+             <li><a href="./preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+             <li><a href="./sugerencias.html">Sugerencias</a></li>
+             </ul>
+     </nav>
+</header> <!-- Fin de Encabezado -->
+
+ 
+   <form action="enviar.php"   method="GET">
+            <fieldset>
+                <legend>Sugerencias</legend>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="" id="Nombre">
+        <br><br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="" id="Apellido">
+
+       <br><br>
+
+        <label for="enviar.php">Email</label>
+        <input type="email" name="" id="Email" required> 
+        
+        <br><br>
+    
+         <label for="Paises"></label>
+        <select name="Paises" id="">
+        
+        <option value="" selected>Argentina</option>
+        <option value=""> Uruguay</option>
+        <option value="">Chile</option>
+        </select>
+        <br><br>
+        
+        <input type="checkbox" name="Acepta" id=""> Acepta los términos
+        <br><br>
+
+<textarea name="" id="" cols="30" rows="10">Comentarios</textarea>
+
+        <br><br>
+        <input type="submit" value="Enviar ahora">
+        <input type="reset" value="Limpiar formulario">
+
+</fieldset>
+</form>
+
+
+
+
+
+
+<hr><br><br><br><br><br>
+
+
+<footer>
+  <h4 class="gris">SEGUINOS</h4>
+  <p class="dark">Suscribite para enterarte de las últimas novedades</p>
+  <form action="enviar.php" method="GET">
+    <label for="email">Email</label>
+    <input type="email" id="email" required>
+    <input type="submit" value="Suscribite">
+    <img src="./multimedia/redes sociales.jpg" alt="redes sociales" width="100">
+  </form>
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
